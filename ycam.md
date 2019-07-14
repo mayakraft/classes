@@ -1,85 +1,55 @@
-# the joy of vector graphics
+- # garden mathematics
 
-# requirements
+  this is a re-visiting of math without any formulas rather visual and sensory explorations, with a focus on things like natural processes/fractals and linear algebra/matrices because of their relevancy to coding and computers.
 
-- computer with any text editor, any browser. pc mac linux chromebook.
-- (none / very little) coding experience
+  🌸 if possible, hold this class outside among plants. there is an opportunity to use them as sources during discussion. 🌼
 
-# linear transformations
+  > class structure
+  >
+  > everyone is together for the first half, it's fast paced and touches briefly on a few things. the second half students can choose what they want to focus on from 2 categories. class splits, but each group still works together.
 
-**conversation**
+  ## recursion: fold a dragon fractal, hand draw fractals
 
-linear transformation matrices as a change of basis vectors
+  observations: the feeling of holding self-similar parts inside your head.
 
-source material [three blue one brown, linear algebra, chapter 3](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+  source: Godel Escher Bach
 
-**exercise**
+  ## hand-drawing voronoi
 
-here is a circle in svg, transformed by a matrix (no transform)
+  > (be precise, use tools, you can stare into it and get lost if it's next-level precise)
 
-```
-<circle cx="0" cy="0" r="100" transform="matrix(1 0 0 1 0 0)" />
-```
+  folding voronoi. origami axiom 2.
 
-by changing the numbers in the matrix make a second circle be a shadow cast on the ground (squashed and skewed).
+  ## strings, knots, origami
 
-**recap**
+  ## l-systems
 
-in modern computing vectors are being used to represent qualitative attributes.
+  python and language tokens, grammars
 
-# data as interpretable format
+  plant patterns and growth.
 
-like sheet music
+  code a branching plant
 
-# log scale
+  write an L-system formula on a strip of paper
 
-**exercise**
+  ## logarithmic scale
 
-using [NASA data](https://nssdc.gsfc.nasa.gov/planetary/factsheet/), draw the planets all in a line, at their correct distance from the sun.
+  ## linear algebra
 
-```c
-log(input)
-```
+  orientation matrices demo on your phone. open in phone
 
-run the distances through a log function, and redraw.
+  `https://robbykraft.com/orientation/`
 
-**conversation**
+  Discussion: matrices as a change of basis
 
-twelfth root of two. ratio between marimba bars, musical pitches.
+  source:  [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)
 
-**conversation**
+  code an SVG shadow by changing the matrix:
 
-2D and 3D space
+  `<circle cx="0" cy="0" r="100" transform="matrix(1 0 0 1 0 0)" />`
 
-**conversation**
+  
 
-# fourier series
+  ## calculus by hand
 
-**conversation**
-
-audio synthesis. overtones.
-
-math functions beyond their typical use. sine, cosine.
-
-**exercise**
-
-# math with your hands
-
-fold a strip of paper over itself to make the fibonacci sequence =~ the golden ratio.
-
-fold a strip of paper over itself to make a dragon fractal. folding a recursive function.
-
-
-
-vector screens and video games.
-
-
-
-livecode create svg in browser.
-
-
-
-give vector art to robots
-
-- cnc mill, pen plotter, laser
-- music instruments
+  
