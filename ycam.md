@@ -2,7 +2,9 @@
 
 ### description
 
-revisit math without any formulas; in place of traditional mathematics notation build a more personal language for expressing things like algorithmic thinking, affine transforms, and recursion. This class visits these concepts in various ways: conversational, hands-on crafts, and in code. Where once it was standard to describe math using traditional mathematics notation, it's now possible to describe math as equally and completely by using code, and has the opportunity to reach an increasingly-larger audience.
+Revisit math but without any formulas. In place of traditional mathematics notation build a more personal language for expressing things like algorithmic thinking, affine transforms, and recursion. This class visits these concepts in various ways: conversational, with hands-on crafts, and in code. Where once it was standard to describe math using traditional mathematics notation it's now possible to describe the same math as accurately and completely by using code, potentially reaching an increasingly-larger audience.
+
+the course title references how most of this material is observable in the natural world, plants especially; it wouldn't hurt to hold class outdoors.
 
 ### material
 
@@ -15,6 +17,11 @@ revisit math without any formulas; in place of traditional mathematics notation 
 
 [source](http://orderinspace.blogspot.com/2015/07/voronoi.html)
 
+(30 minutes) functions
+
+- math notation vs. computer function
+- graphs are only 1 kind of visualization (and are 2D because a function is 1D)
+
 (1 hour) recursion
 
 - (1) fold and (2) draw a dragon fractal
@@ -26,7 +33,7 @@ revisit math without any formulas; in place of traditional mathematics notation 
    - spiral packing
 - python and language tokens, grammars
 
-sources: Godel Escher Bach, [fold a dragon curve](https://www.cutoutfoldup.com/216-dragon-curve.php), [my origami](https://www.instagram.com/p/BlUirtdno1b/), [Recursion and Context-Free Grammars](https://www.decontextualize.com/teaching/rwet/recursion-and-context-free-grammars/)
+sources: Godel Escher Bach, [fold a dragon curve](https://www.cutoutfoldup.com/216-dragon-curve.php), [9 iteration dragon curve](https://www.instagram.com/p/BlUirtdno1b/), [Recursion and Context-Free Grammars](https://www.decontextualize.com/teaching/rwet/recursion-and-context-free-grammars/)
 
 > computers optional: code a branching plant
 
@@ -36,13 +43,9 @@ sources: Godel Escher Bach, [fold a dragon curve](https://www.cutoutfoldup.com/2
 - discussion: matrices as a change of basis. *source: [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)*
 - code an SVG shadow by changing the matrix: `<circle r="100" transform="matrix(1 0 0 1 200 200)" />`
 
-# unsorted content
+### unsorted content
 
-## logarithmic scale
-
-> class structure
->
-> everyone is together for the first half (or 2/3rds). in the second part, students split off into 2 or 3 groups, to focus on what excited them most. the class splits, but each group still works together.
+logarithmic scale
 
 - first 30 minutes: introduction
 - hour 1: recursion
