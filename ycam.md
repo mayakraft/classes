@@ -14,28 +14,27 @@ the course title references how a lot of this material is observable in the natu
 - exercise: draw a voronoi. folding voronoi. origami axiom 2. *source: [voronoi](http://orderinspace.blogspot.com/2015/07/voronoi.html), [axioms](https://rabbitear.org/examples/axioms/)*
 - observations: algorithmic thinking. before expressing an algorithm in code, make it with your hands.
 
-(30 minutes) functions
+(30 min) functions
 
 - functions as inputs (x) and outputs (y): logarithms. sine.
-- functions in math and code notation *source: [math as code](https://github.com/Jam3/math-as-code)*
+- functions in math and code notation. *source: [math as code](https://github.com/Jam3/math-as-code)*
 - exercise: p5 sine sketch
 
 (1 hour) recursion
 
 - (1) fold and (2) draw a dragon fractal *source [fold a dragon curve](https://www.cutoutfoldup.com/216-dragon-curve.php), [9 iteration dragon curve](https://www.instagram.com/p/BlUirtdno1b/)*
-- observations: the feeling of holding self-similar parts inside your head
-- additional material: strings, knots, origami
-- l-systems: reverse engineer l-systems, describing plant growth patterns *source: Godel Escher Bach*
+- observations: the feeling of holding self-similar parts inside your head, the part contains the whole.
+- l-systems: reverse engineer l-systems, describing plant growth patterns. *source: Godel Escher Bach*
    - radial branching angle
    - branch sprout locations
    - spiral packing
 - python and language tokens, grammars *source: [Recursion and Context-Free Grammars](https://www.decontextualize.com/teaching/rwet/recursion-and-context-free-grammars/)*
-
-> computers optional: code a branching plant
+- additional material: strings, knots, origami
+- exercise: p5 l-system branching plant
 
 (45 minutes) linear algebra
 
 - orientation matrices demo. open in phone (Chrome): `https://robbykraft.com/orientation/`
+- demo why matrices are useful
 - discussion: matrices as a change of basis. *source: [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)*
 - code an SVG shadow by changing the matrix: `<circle r="100" transform="matrix(1 0 0 1 200 200)" />`
-
