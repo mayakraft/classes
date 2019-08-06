@@ -8,7 +8,11 @@ the course title references how a lot of this material is observable in the natu
 
 ### material
 
-(30 min) introduction, algorithms by hand
+(30 min) introduction, algorithms by hand, unlearning number bases
+
+history
+
+for the moment, forget what you know. forget counting individual units... think about ratios
 
 - discussion: what is computation to a finite state machine? *source: Church-Turing thesis*
 - exercise: draw a voronoi. folding voronoi. origami axiom 2. *source: [voronoi](http://orderinspace.blogspot.com/2015/07/voronoi.html), [axioms](https://rabbitear.org/examples/axioms/)*
@@ -38,3 +42,13 @@ the course title references how a lot of this material is observable in the natu
 - demo why matrices are useful
 - discussion: matrices as a change of basis. *source: [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)*
 - code an SVG shadow by changing the matrix: `<circle r="100" transform="matrix(1 0 0 1 200 200)" />`
+
+### books, sources
+
+- Douglas Hofstadter, Godel Escher Bach
+- R. Buckminster Fuller, Critical Path
+- Paul Lockhart, Measurement
+- [the Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/)
+- Chris Bernhardt, Turing's Vision
+- [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)
+
