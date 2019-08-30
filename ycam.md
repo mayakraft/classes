@@ -1,8 +1,11 @@
 # 🌸 garden mathematics 🌼
 
-Revisit math but without the equations, in place of the traditional notation build a more personal language for expressing things like algorithmic thinking, affine transforms, and recursion, using various approaches: conversation, in code, hands on constructions. By re-thinking our heavy reliance on traditional notation we offer the potential for a radical new way of understanding math. In this class we especially highlight ways math is represented in code.
+this class is a part of [SFPC at YCAM 2019](https://www.ycam.jp/events/2019/sfpc/).
 
-the course title references how a lot of this material is observable in the natural world, like in plants; this class could be an outdoor class.
+This course aims to revisit mathematics, not introduce new math but in place of the traditional methods build a more personal language for expressing play, algorithmic thinking, and recursion. By re-thinking our heavy reliance on traditional notation we offer the potential for a radical new way of understanding math. In this class we especially highlight ways math is explored in origami, crafts, and code.
+
+> "In many classrooms, students are not permitted to construct a personal understanding of the mathematics that is presented. The values, traditions, beliefs, language, and habits reflective of the culture of the students are ignored. In such situations, the ways that children might invent personally meaningful conceptualizations are not respected."
+> Ubiratan d'ambrosio
 
 # material
 
@@ -64,10 +67,10 @@ coding exercise 3: l-system branching plant
 
 ### books, sources
 
-- Douglas Hofstadter, Godel Escher Bach
-- R. Buckminster Fuller, Critical Path
-- Paul Lockhart, Measurement
+- Douglas Hofstadter, "Godel Escher Bach"
+- R. Buckminster Fuller, "Critical Path"
+- Paul Lockhart, "Measurement"
+- Ilan Garibi, David Goodman, Yossi Elran, "The Paper Puzzle Book"
 - [the Church-Turing Thesis](https://plato.stanford.edu/entries/church-turing/)
-- Chris Bernhardt, Turing's Vision
+- Chris Bernhardt, "Turing's Vision"
 - [3 blue 1 brown](https://www.youtube.com/watch?v=kYB8IZa5AuE)
-
