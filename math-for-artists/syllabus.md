@@ -1,8 +1,15 @@
 # Math for Artists
 
+ITP Spring 2020
+
+## Description
+
 In this class students will learn math tools to boost their digital practice, fix common problems, and understand the math behind our human perception of the physical world. This course spans different branches of math including geometry, linear algebra, logarithmic thinking, and statistics as they relate to a programmer making digital art with our contemporary media ecosystem. The aim of this course isn't to become calculators, rather strengthen our intuition through historical and ethnomathematics perspectives and foster a new relationship to math. The prerequisites to this class are basic arithmetic skills and an introduction to programming. We will create applications using free and open-source software, including Python and p5.js.
 
+# Schedule
+
 # 1. NUMBERS
+
 ## Lecture
 
 Course introduction: shaping numbers, coordinate systems, emergent structures, origami, linear algebra for machine learning, augmented reality.
@@ -16,16 +23,14 @@ history of counting, measurement, alternate counting systems, Hellenistic geomet
 measure pi (or measure 2pi) to as many decimal places as possible (in different number bases) (pi could have just as easily been defined as 6.28)
 
 > use anything on the ITP floor.
+
 ## Lecture
 
 Wrap-up: Number bases and radix. Natural, whole, rational, irrational numbers. different infinities-sizes of sets. these are the letters they typically go by.
 
 ## Homework
 
-create a representation of an alternative counting base, relate it to something, a piece of art.
-
-## Sources
-- The Crest of the Peacock, George Gheverghese Joseph
+create a representation of an alternative counting base
 
 # 2. FUNCTIONS
 
@@ -334,3 +339,27 @@ origami tessellation
 # 14. Final Presentations
 
 
+
+### STATEMENT OF ACADEMIC INTEGRITY
+
+Plagiarism is presenting someone else’s work as though it were your own. More specifically, plagiarism is to present as your own: A sequence of words quoted without quotation marks from another writer or a paraphrased passage from another writer’s work or facts, ideas or images composed by someone else.
+
+### STATEMENT OF PRINCIPLE
+
+The core of the educational experience at the Tisch School of the Arts is the creation of original academic and artistic work by students for the critical review of faculty members.  It is therefore of the utmost importance that students at all times provide their instructors with an accurate sense of their current abilities and knowledge in order to receive appropriate constructive criticism and advice.  Any attempt to evade that essential, transparent transaction between instructor and student through plagiarism or cheating is educationally self-defeating and a grave violation of Tisch School of the Arts community standards.  For all the details on plagiarism, please refer to page 10 of the Tisch School of the Arts, Policies and Procedures Handbook, which can be found online at: http://students.tisch.nyu.edu/page/home.html
+
+### STATEMENT ON ACCESSIBILITY
+
+Please feel free to make suggestions to your instructor about ways in which this class could become more accessible to you.  Academic accommodations are available for students with documented disabilities. Please contact the Moses Center for Students with Disabilities at 212 998-4980 for further information.
+
+### STATEMENT ON COUNSELING AND WELLNESS
+
+Your health and safety are a priority at NYU. If you experience any health or mental health issues during this course, we encourage you to utilize the support services of the 24/7 NYU Wellness Exchange 212-443-9999. Also, all students who may require an academic accommodation due to a qualified disability, physical or mental, please register with the Moses Center 212-998-4980. Please let your instructor know if you need help connecting to these resources.
+
+### STATEMENT ON USE OF ELECTRONIC DEVICES
+
+Laptops will be an essential part of the course and may be used in class during workshops and for taking notes in lecture. Laptops must be closed during class discussions and student presentations.  Phone use in class is strictly prohibited unless directly related to a presentation of your own work or if you are asked to do so as part of the curriculum.
+
+### STATEMENT ON TITLE IX
+
+Tisch School of the Arts to dedicated to providing its students with a learning environment that is rigorous, respectful, supportive and nurturing so that they can engage in the free exchange of ideas and commit themselves fully to the study of their discipline. To that end Tisch is committed to enforcing University policies prohibiting all forms of sexual misconduct as well as discrimination on the basis of sex and gender.  Detailed information regarding these policies and the resources that are available to students through the Title IX office can be found by using the following link: Title IX at NYU.
