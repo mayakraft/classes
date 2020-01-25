@@ -1,126 +1,188 @@
 # Math for Artists
 
-### ITP, Spring 2020
+Spring 2020
 
-- Instructor: Robby Kraft
-- Instructor Email: rk132@nyu.edu
-- Office Hours: TBD
-- Costs: TBD
-- Description:
+ITP, 370 Jay St, room 409
 
-In this class students will learn math tools to boost their digital practice, fix common problems, and understand the math behind our human perception of the physical world. This course spans different branches of math including geometry, linear algebra, logarithmic thinking, and statistics as they relate to a programmer making digital art with our contemporary media ecosystem. The aim of this course isn't to become calculators, rather strengthen our intuition through historical and ethnomathematics perspectives and foster a new relationship to math. The prerequisites to this class are basic arithmetic skills and an introduction to programming. We will create applications using free and open-source software, including Python and p5.js.
+Thursdays, 6:30 - 9 PM
 
-# Weekly Breakdown
+Instructor: Robby Kraft, rk132@nyu.edu
 
-## 1. NUMBERS
+Office Hours: TBD
 
-### Lecture
+Costs: TBD
 
-Course introduction: shaping numbers, coordinate systems, emergent structures, origami, linear algebra for machine learning, augmented reality.
+## Course Details
+
+In this class students will learn math tools to boost their digital practice, fix common problems, and understand the math behind our human perception of the physical world. This course spans different branches of math including geometry, linear algebra, logarithmic thinking, and statistics as they relate to a programmer making digital art with our contemporary media ecosystem. The aim of this course isn't to solve equations, rather strengthen our intuition accompanied with historical and ethnomathematics perspectives and foster a healthy relationship to a few branches of math. The prerequisites to this class are basic arithmetic skills and an introduction to programming. We will create applications using free and open-source software, including Python, p5.js, and Pure Data.
+
+## Conduct
+
+This class meets for one two hour and thirty minute session each week. Students are epected to be present and active participants in each class, if this is going to be a problem, students should skip class as a gesture to fellow classmates.
+
+Unexcused absences or missed deadlines constitute a failure of the assignment.
+
+## Assessment
+
+Final grade is determined:
+
+- Class Participation: 40%
+- Weekly Assignments: 30%
+- Final Project: 30%
+
+## Materials
+
+All students are expected to bring a laptop to every class. Additionally, students should have access to paper and a writing utensil.
+
+# Class Meetings
+
+## Week 1, 01-30: Numbers
+
+*(Course overview: shaping numbers, coordinate systems, emergent structures, origami, linear algebra for machine learning, augmented reality)*
 
 ### History
 
-history of counting, measurement, alternate counting systems, Hellenistic geometry, the history of proofs (Euclid), numerals and the Gupta empire, early ties to astronomy, algorithms and the Islamic golden age, “Dixit algorizmi”.
+history of counting, measurement, alternate counting systems, Hellenistic geometry, the history of proofs, Euclid, numerals and the Gupta empire, early ties to astronomy, algorithms and the Islamic golden age.
 
 ### Classwork
 
-measure pi (or measure 2pi) to as many decimal places as possible (in different number bases) (pi could have just as easily been defined as 6.28)
-
-> use anything on the ITP floor.
+measure pi to as many decimal places as possible. use anything on the ITP floor.
 
 ### Lecture
 
-Wrap-up: Number bases and radix. Natural, whole, rational, irrational numbers. different infinities-sizes of sets. these are the letters they typically go by.
+Establish a vocabulary around natural, whole, rational, irrational numbers, and fractions. Introduce these as set notation.
+
+Explore alternate number bases/radix. Do these alter your perception of a number? Do number bases have inherent properties? Explore the patterns in divisors, especially in the context of alternate number bases.
+
+Demonstrate divisors and alternate number bases as musical rhythms.
 
 ### Homework
 
-create a representation of an alternative counting base
+Visulize or sonify an alternate number base, or patterns among divisors.
 
-## 2. FUNCTIONS
+### References
+
+[Michael Fogleman Prime Factors Poster](https://store.michaelfogleman.com/products/prime-factors)
+
+### If there is time
+
+Introduction to Pure Data
+
+## Week 2, 02-06: Functions
 
 ### Lecture
 
-Arithmetic review. mod operator. mixing multiplication with addition. associative, communicative. the two sides of an equal sign. unit conversion. error.
-tools, calculators, graphing.
+A review of algebra. The two sides of an equal sign and techniques for moving things from one side to the other (mixing multiplication, addition, exponents). Unit conversion as a sequence of fractions.
+
+The modulus operator. associative and communicative.
+
+### Software
+
+Arithmetic in Pure Data
 
 ### Classwork
 
-with a calculator, shrink a rectangle and preserve aspect ratio. demonstrate skill w ratios.
+Using a calculator shrink a rectangle and preserve aspect ratio. Demonstrate skill with ratios.
 
 ### Lecture
 
-transforming numbers, variable types, inputs and outputs, the number line, the dataflow language function model (pd, max-msp), function as black-box. functions-as-code model. the importance of the UNIT interval. between 0...1
+Transforming numbers, variable types, inputs and outputs, the number line, the dataflow language function model (pd, max-msp), function as black-box. functions-as-code model.
+
+What is a graph?-and why it's easy to confuse with Euclidean space.
 
 ### Classwork
 
-code the map function
+Code the map function
 
-- SHAPING: example: random int between (13, 128) but, anything past 50 is unrecognizably similar, we need to front-load these numbers. more up front less in the back (this is the limits of map function ability)
-
-ADVANCED FUNCTIONS: ADVANCED NUMBER SHAPING
-
-- discrete vs. continuous methods animated
-- animation curves. relating the output of Grapher with animations.
-
-## 3. GEOMETRY (POLYTOPES)
-
-### Lecture
-
-Polyhedra. Regular polytopes in n-dimensions. Platonic, Archimedean, Johnson, Catalan. face-based definition, vertex-definition. VEF relationship. duality. stellation. cross-polytopes. (bring dice). open-face polyhedra. George Hart
-
-### Classwork
-
-calculate positions of vertices
-calculate dihedral angle between faces (to account for material-thickness in construction of solids)
-
-### Lecture
-
-Schläfli symbols. Symmetry, rotation groups, dihedral angle. 
-construction techniques, golden ratio in icosa/dodeca. engineering. collapsible structures. Chuck Hoberman. Andrea Hawksley/Vi Hart
+A big takeaway from today is that we can scale the numberline, but a scaling operation's origin is fixed at zero. Addition and subtraction are needed to shift the origin.
 
 ### Homework
 
-fabricate a polyhedron
+Create a random number generator in pure data. Transform a seed input to a sufficiently random output.
 
-### Sources
+### Reference
+
+Yamaguchi Automata artist
+
+## Week 3, 02-13: Geometry
+
+### Classwork
+
+Sculpt a dodecahedron out of clay
+
+### Lecture
+
+Polygons and polyhedra (regular polytopes in n-dimensions). Platonic, Archimedean, Johnson, and Catalan solids. face-based definition, vertex-definition. VEF relationship. duality. stellation. cross-polytopes. (bring dice). golden ratio in icosa/dodeca. open-face polyhedra. Schläfli symbols. Symmetry, rotation groups, dihedral angle.
+
+The three solids symmetry groups: tetra, hexa/octa, dodeca/icosa, and the relationship between each. 
+
+### Classwork
+
+Using compass-straightedge construct:
+
+- hexagon
+- pentagon
+- bisect/trisect an angle
+
+### Lecture
+
+Euclid's elements and compass-straightedge constructions.
+construction techniques
+
+### Homework
+
+Fabricate a polyhedron
+
+Compass straight-edge a geometric tessellation
+
+### Reference
 
 - [George Hart’s references](http://www.georgehart.com/virtual-polyhedra/references.html)
+- Art by George Hart, Vi Hart, Andrea Hawksley
 - [Solids, Tom Lechner](https://www.tomlechner.com/sculptures/solids.html)
+- Tom Hull's Intersecting tetrahedra
 
-## 4. GEOMETRY (TRIGONOMETRY)
+### Extra Credit
 
-### Lecture
+Calculate dihedral angle between faces of a polyhedron, like a dodecahedron. This would help account for material-thickness in construction of solids.
 
-Establishing a coordinate frame. Euclidean space. polar coordinate system (vectors). barycentric coordinate system, cylindrical coordinates
+## Week 4, 02-20: Trigonometry
 
 ### Classwork
 
-code a math rose. (polar coords)
+Find a circle that goes through three points
+
+### Lecture
+
+Euclidean space. Establishing a coordinate frame, including polar coordinates, barycentric coordinate system, cylindrical coordinates. Introduction to geometric algorithms, and a lot of information about triangles.
+
+### Classwork
+
+Code a circle using sine, cosine
 
 ### Lecture
 
 compass straightedge solutions. Euclid. tilings, creating tessellations. distance formula (Pythagoras)
 
-### Classwork: intersection algorithms pt. 1
+### Classwork: intersection algorithms
 
-- circle-circle (use the distance formula)
+- circle-circle (the distance formula)
 - line-line (segment-segment) (this will be hard)
 
 ### Lecture: Trigonometry
 
-every little thing about triangles. atan2(), distance formula. convex-polygon overlap collision detection. all the different centers of a triangle. sine, cosine (for the FFT)
+Every little thing about triangles. atan2(), distance formula. Convex-polygon overlap collision detection. All the different centers of a triangle. Sine, cosine (for the FFT)
 
-### Classwork
-
-trisect an angle
-draw a circle using sine, cosine
-
-### Sources
+### References
 
 - [Journey to the Center of a Triangle, Bruce & Katharine Cornwell](https://www.youtube.com/watch?v=v_oZ9Pe0yRg)
 - [Paul Bourke, Geometry](http://paulbourke.net/geometry/)
 
-## 5. LINEAR ALGEBRA
+### If there is time
+
+code a math rose. (polar coords)
+
+## Week 5, 02-27: Linear Algebra
 
 Vectors and scalars. Line representations: (point, vector) (point, point) (vector, scalar-distance-to-center)
 
@@ -134,12 +196,16 @@ Vectors and scalars. Line representations: (point, vector) (point, point) (vecto
 
 coordinate system as matrices. affine transforms.
 
+### Classwork
+
+scale a polygon in SVG only using a matrix
+
 ### Sources
 - Measurement by Paul Lockhart, section 2 Time and Space.
 - 3blue1brown essence of linear algebra, first 3 videos. (30 minutes)
 - [Paul Bourke, Geometry](http://paulbourke.net/geometry/)
 
-## 6. LINEAR ALGEBRA
+## Week 6, 03-05: Linear Algebra
 
 ### Lecture: computer graphics
 
@@ -159,11 +225,13 @@ create a 3D environment (WebGL) that tracks with the orientation sensors of your
 
 - 3blue1brown essence of linear algebra
 
-## 7. LOGARITHMS
+## Week 7, 03-12: Logarithms
 
 ### Lecture
 
-"what number is halfway between 1 and 9?", Stanislas Dehaene and how logarithmic thinking is innate and unlearned. This informs the nature of human senses, audio and visual, the mathematical relationship between musical pitches, and noise and compression.
+Exponents review.
+
+"What number is halfway between 1 and 9?", Stanislas Dehaene and how logarithmic thinking is innate and unlearned. This informs the nature of human senses, audio and visual, the mathematical relationship between musical pitches, and noise and compression.
 
 ### Classwork
 
@@ -182,12 +250,16 @@ Construct a linear representation of a logarithmic situation (example: a map of 
 
 Randall Munroe’s logarithmic maps
 
-## 8. AUDIOVISUAL
+## Week 8, 03-19: Audiovisual
 
 ### Lecture
 
 - human audio hearing range. frequency and timbre, consonance and dissonance, synthesis, filters. frequency spectrogram.
 - information limits. Nyquist frequency. audio bit-rate. what does low bit-rate sound like? compression in both visual and audio, quantization
+
+### Classwork
+
+Coding music by frequency in Pure Data
 
 ### Lecture
 
@@ -199,11 +271,21 @@ Linkages, Fourier drawing.
 
 ### Lecture
 
-- color space. 3-space. (cylindrical coordinate system). additive and subtractive colors. pixels. image bit-resolution
+- color space. 3-space. (cylindrical coordinate system). additive and subtractive colors. pixels. image bit-resolution.
 - image compression (JPEG). discrete cosine transform.
 - blur and canny edge.
 
-## 9. ALGORITHMS
+## Week 9, 03-26: Fourier Systems
+
+### 
+
+[@ChocoLinkage](https://twitter.com/ChocoLinkage)
+
+## Week 10, 03-26: Algorithms
+
+### Classwork
+
+create a Voronoi diagram using origami
 
 ### History
 
@@ -222,10 +304,6 @@ Formal grammars, regular expressions, Aristid Lindenmayer and plant growth patte
 algorithms. broadly speaking. introduction. types of algorithms like divide and conquer.
 crystal growth. state. storage medium.
 
-### Classwork
-
-create a Voronoi diagram using origami
-
 ### Homework
 
 - Voronoi
@@ -233,8 +311,6 @@ create a Voronoi diagram using origami
 ### Reading
 
 - [Examples of L-Systems, Wikipedia](https://en.wikipedia.org/wiki/L-system#Examples_of_L-systems)
-
-## 10. COMPUTATIONAL MATH
 
 ### Lecture
 
@@ -277,7 +353,26 @@ Algorithms at scale. Encryption. Units of algorithm time: big-o. NP Hardness. no
 
 - classes of algorithms like divide and conquer
 
-## 11. RANDOMNESS
+## Algorithms
+
+## Week 11, 02-13: Advanced Number shaping
+
+ the importance of the UNIT interval. between 0...1
+
+### Lecture
+
+Boolean Algebra: boolean operations, duality, reduction. `( a` `**&& b**` `) == !( a` `**|| b**` `)`, logic gates
+
+
+
+- SHAPING: example: random int between (13, 128) but, anything past 50 is unrecognizably similar, we need to front-load these numbers. more up front less in the back (this is the limits of map function ability)
+
+ADVANCED FUNCTIONS: ADVANCED NUMBER SHAPING
+
+- discrete vs. continuous methods animated
+- animation curves. relating the output of Grapher with animations.
+
+## 13. RANDOMNESS
 
 ### History
 
@@ -301,7 +396,7 @@ computer’s pseudo random generator, testing random number generators
 
 ----------
 
-## 12. FOLDING ALGORITHMS
+## 14. Bonus: Folding Algorithms
 
 ### Lecture
 
@@ -326,7 +421,7 @@ origami tessellation
 - [Geometric Folding Algorithms the book](https://www.google.com/books/edition/Geometric_Folding_Algorithms/ycYLAQAAQBAJ)
 - [Twists Tilings and Tessellations, Robert Lang](https://www.amazon.com/Twists-Tilings-Tessellations-Mathematical-Geometric/dp/1138563064)
 
-## 13. STRANGE SURFACES
+### Strange Surfaces
 
 - knots, orientable surfaces, möbius strip, donuts. Higher dimensional regular polytopes.
 - 4D projections into 3D, shadows, slicing. Flatland. translation between dimensions. Henry Segerman
