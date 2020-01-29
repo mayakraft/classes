@@ -50,19 +50,33 @@ Materials provided by the university
 # Class Overview
 
 Week 1, January 30: **Numbers**: broaden our conception of counting systems
+
 Week 2, February 06: **Functions**: transforming numbers, map, scale
+
 Week 3, February 13: **Geometry**: polyhedra and compass straight-edge
+
 Week 4, February 20: **Trigonometry**: including intersection algorithms
+
 Week 5, February 27: **Linear Algebra**: matrices to represent coordinate space
+
 Week 6, March 05: **Linear Algebra**: methods on vectors
+
 Week 7, March 12: **Linear Algebra**: applications for 3D space and machine learning
+
 *Spring Break, March 19: no class*
+
 Week 8, March 26: **Logarithms**: build an intuition for logarithmic thinking
+
 Week 9, April 02: **Audiovisual**: create and modify audio signals, understand color space
+
 Week 10, April 09: **Fourier Systems**: FFT and linkages
+
 Week 11, April 16: **Randomness, Noise, Distortion**: types of noises, understand file compression.
+
 Week 12, April 23: **Number Shaping**: practical application of handling numbers in software.
+
 Week 13, April 30: **Boolean Algebra**: algebraic operations with applications for if-statements
+
 Week 14, May 07: **Final Presentations**
 
 # Class Meetings
@@ -155,8 +169,7 @@ Using compass-straightedge construct:
 
 ### Lecture
 
-Euclid's elements and compass-straightedge constructions.
-construction techniques
+Euclid's elements and compass-straightedge constructions. construction techniques
 
 ### Homework
 
@@ -335,6 +348,7 @@ Linkages, Fourier drawing.
 ### History
 
 1970’s, algorists employing randomness especially in visual art. Aleatoric music. Fluxus
+
 computer’s pseudo random generator, testing random number generators
 
 ### Lecture
